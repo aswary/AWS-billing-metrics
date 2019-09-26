@@ -1,6 +1,15 @@
 # AWS Consumption KPI Metrics Extract
-This is to extract AWS KPIs specifically for consumption and pricing and dump them into MySql database model for further reporting.
-This module is set up using Python version 2.7 but can be modified for other versions as well. An already existing api SDK library for python `boto3` is being used to communicate with AWS
+This is to extract AWS KPIs specifically for consumption and pricing and dump them into CSV files for further reporting.
+This module is set up using Python version 2.7 but can be modified for other versions as well. An already existing AWS api library for python `boto3` is being used to communicate with AWS.
+
+There are 3 different python modules each of which can be used for individual requirements OR can be used sequentially to get more detailed information.
+The extracted data from lookup and access modules shows list of S3 buckets and objects under your profile and their access rights and other details. The detailed data contains number of objects, regions, size, access, version etc.
+
+The extracted data from get statistics module shows the Cloudwatch metrics about S3 and billing data on a daily basis.
+
+The modules can be modified to include other AWS services accordingly
+
+
 
 
 # Steps:
