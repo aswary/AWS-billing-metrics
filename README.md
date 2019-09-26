@@ -1,12 +1,11 @@
 # AWS_KPI
 This is to extract AWS KPIs specifically for consumption and pricing and dump them into MySql database model for further reporting.
+This module is set up using Python version but can be modified for other versions as well
 
 
 # Steps:
 
-1. Install python. The current code is set up using Python version but can be modified for other versions as well.
-Confirm python version on your system is 2.7:
-  `Python  --version`
+1. Install python. 
 
 2. Install AWSCLI:
   `Pip install awscli`
