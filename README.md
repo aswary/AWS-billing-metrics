@@ -1,6 +1,6 @@
 # AWS_KPI
 This is to extract AWS KPIs specifically for consumption and pricing and dump them into MySql database model for further reporting.
-This module is set up using Python version but can be modified for other versions as well
+This module is set up using Python version 2.7 but can be modified for other versions as well. An already existing api SDK library for python `boto3` is being used to communicate with AWS
 
 
 # Steps:
