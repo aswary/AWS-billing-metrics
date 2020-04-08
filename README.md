@@ -39,5 +39,5 @@ The modules can be modified to include other AWS services accordingly
 
 9. get_public_access.py --This should be run next - It fetches the Public access lookup data into csv files
 
-10. cloudwatch_get_metrics_statistics.py -- This should be run next to get Billing and S3 Cloudwatch metrics into csv files
+10. cloudwatch_get_metrics_statistics.py -- This should be run next to get Billing and S3 Cloudwatch metrics into csv files.
 
